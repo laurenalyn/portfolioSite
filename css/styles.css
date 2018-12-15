@@ -60,3 +60,76 @@ body {
 .intro-name {
     padding: .7rem;
 }
+
+.all-content {
+    padding: 2rem;
+    background: #f2f0f5e5;
+    /* background: -webkit-linear-gradient(to top, #2E1437, #948E99);
+    background: linear-gradient(to top, #2E1437, #948E99); */
+    
+}
+.about-section {
+    /* outline: 1px solid blue; */
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(182, 182, 182, .4); */
+}
+
+.about-img-content {
+    /* outline: 1px solid yellow; */
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-img-content img {
+    /* margin: auto; */
+    height: 35%;
+    width: 35%;
+    border-radius: 50%; 
+}
+
+.about-img-content p.greeting {
+    align-self: center;
+    font-size: 3rem;
+    color: rgba(33, 14, 39, .9);
+    font-family: 'Sedgwick Ave', cursive;
+    padding-left: 2rem;
+    /* outline: 1px solid green; */
+}
+
+.about-img-content p.greeting span {
+    font-size: 5rem;
+}
+
+.about-content {
+    /* outline: 1px solid red; */
+    padding: 1rem 0 3rem 0;
+}
+
+.about-content p {
+    width: 70%;
+    margin: auto;
+    padding: .7rem;
+    text-align: justify;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+
+/* .projects-section {
+    outline: 1px solid indigo;
+}
+
+.contact-section {
+    outline: 1px solid purple;
+}
+
+.footer-section {
+    outline: 1px solid violet;
+    color: rgb(182, 182, 182);
+} */
