@@ -121,10 +121,30 @@ body {
     letter-spacing: 1px;
 }
 
-/* .projects-section {
+ /* .projects-section {
     outline: 1px solid indigo;
+    width: 90%;
+    height: 15rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+
+/* .projects-section .technologies {
+    background-color: #2E1437;
+    width: 100%;
+    list-style: none;
 }
 
+.projects-section .project {
+    flex-basis: 30%;
+    text-align: center;
+    border: 1px solid rgba(33, 14, 39, .9);
+} */
+
+
+/*
 .contact-section {
     outline: 1px solid purple;
 }
