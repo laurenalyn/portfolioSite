@@ -121,7 +121,8 @@ a {
 }
 .project-content {
     display: flex;
-
+    justify-content: center;
+    align-items: center;
     /* outline: 1px solid yellow; */
 }
 
@@ -146,6 +147,7 @@ a {
 .project-p {
     flex: 0 0 50%;
     text-align: justify;
+    text-indent: 2.5rem;
     justify-content: center;
     font-size: 1.6rem;
     padding: 1rem;
@@ -155,10 +157,15 @@ a {
 .button-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    /* justify-content: space-between; */
+    align-content: space-between;
     padding: 3rem;
     /* outline: 1px solid red; */
+}
+
+.button-container a {
+    /* outline: 2px solid blue; */
+    margin: .7rem;
 }
 
 .btn1, .btn2 {
