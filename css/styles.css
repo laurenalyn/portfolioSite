@@ -33,7 +33,7 @@ a {
 .header {
     /* outline: 1px solid white; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 1rem 5rem;
     /* text-transform: uppercase; */
 }
@@ -49,15 +49,16 @@ a {
 .nav {
     /* outline: 1px solid yellow; */
     height: 100%;
+    width: 100%;
     list-style: none;
     display: flex;
     /* flex-direction: column; */
     justify-content: space-evenly; 
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 .nav-item {
-    padding: .8rem 0 .8rem 1rem;
+    padding: .8rem 3rem;
 }
 
 .nav-item a {
@@ -81,10 +82,14 @@ a {
     letter-spacing: .04rem;
     color: rgba(255, 255, 255, 1);
 }
-
+/* ========================== */
+    /* GREETING SECTION */
+/* ========================== */
 .landing-title {
     /* outline: 1px solid purple; */
     height: 100%;
+    width: 50%;
+    padding: .5rem;
 }
 
 .intro-name {
@@ -94,18 +99,23 @@ a {
     font-weight: 400;
     padding: .7rem;
     margin-bottom: .5rem;
+    font-size: 3.5rem;
 }
 
 .intro-name .hi {
     font-family: 'Satisfy', cursive;
-    font-size:3.5rem;
+    font-size: 4.5rem;
+    letter-spacing: .4rem;
 }
-
+/* ========================== */
+        /* ABOUT SECTION */
+/* ========================== */
 .about-section {
+    /* outline: 1px solid yellow; */
     height: 100%;
     width:100%;
-    /* outline: 1px solid white; */
-    /* padding: 3rem 2rem; */
+    margin-bottom: 4rem;
+    padding: 3rem 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,16 +139,17 @@ a {
     min-width: 300px;
 }
 
-
 .about-content-p {
+    /* outline: 1px solid red; */
     height:100%;
     width: 60%;
-    /* outline: 1px solid red; */
-    padding: 3rem 2rem;
+    margin: 1rem;
+    padding: 1rem;
 }
 
 .about-content-p .about-p {
     /* outline: 1px solid white; */
+    font-size: 1.2rem;
     padding: 1rem;
 }
 
@@ -146,13 +157,9 @@ a {
     font-family: 'Satisfy', cursive;
     font-size: 4rem;
 }
-
-
-
-
-
-
-
+/* ========================== */
+    /* PROJECT SECTION */
+/* ========================== */
 .projects-section {
     /* outline: 1px solid yellow; */
     display: flex;
